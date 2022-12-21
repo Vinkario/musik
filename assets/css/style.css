@@ -28,9 +28,7 @@
     justify-content: space-between;
     flex-wrap: wrap;
     margin: 0 auto;
-
-
-
+    max-width:1200px;
 }
 
 .logo a{
@@ -129,6 +127,7 @@
     font-size: 24px;
     text-align: center;
     color: #fff;
+    max-width: 1200px;
 }
 
 .buttons-menu{
@@ -178,6 +177,7 @@
     display: flex;
     gap: 40px;
     margin-top: 122px;
+    flex-wrap: wrap;
 }
 
 .time-text{
@@ -194,7 +194,10 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
+    margin: 240px auto;
 }
+
 
 .music-tag{
     width: 370px;
@@ -227,7 +230,8 @@
     margin-top: 60px;
     display: flex;
     gap: 30px;
-    justify-content: center;flex-wrap: wrap;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 .title-section-two{
     font-size: 24px;
@@ -244,6 +248,7 @@
     margin-top: 240px;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .content-text{
@@ -290,4 +295,110 @@
 .button-saiba-mais a::after{
     content: url("/assets/images/section3/arrow.svg");
     margin-left: 10px;
+    margin-top: 4px;
+}
+
+.section-four{
+    margin-top: 240px;
+    display: flex;
+    margin: 0 auto;
+    max-width: 1200px;
+    gap: 30px;
+}
+
+.text-section-four{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 1200px;
+    flex-wrap: wrap;
+}
+
+.text-section-four h3{
+    font-size: 34px;
+    margin-bottom: 32px;
+
+}
+
+.text-section-four p{
+    font-size: 16px;
+    line-height: 2;
+    text-align: justify;
+    margin-bottom: 80px;
+}
+
+.images-content{
+    display: flex;
+    gap: 30px;
+    height: 350px;
+}
+
+.images-content-1{
+    display: flex;
+    gap: 30px;
+}
+
+.images-content-2{
+    display: flex;
+    gap: 30px;
+}
+
+.images-content-1 img:nth-child(1){
+    width: auto;
+    height: 270px;
+    margin-top: 30px;
+    
+   
+}
+
+.images-content-1 img:nth-child(2){
+    width: auto;
+    height: 270px;
+    margin-bottom: 30px;
+   
+}
+
+.images-content-2 img:nth-child(1){
+    margin-top: 25px;
+}
+
+.images-content-2 img:nth-child(2){
+    width: auto;
+    height: 270px;
+    margin-bottom: 30px;
+}
+
+.button-section-four{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 60px;
+    border-radius: 8px;
+    background-color: var(--general-blue);
+    cursor: pointer;
+}
+
+.button-section-four:hover{
+    background-color: var(--general-red);
+    cursor: pointer;
+    transition:  all 300ms  ease-in-out;
+}
+
+.button-section-four a{
+    color:#fff;
+    text-decoration: none;
+}
+
+.button-section-four::after{
+    content: url("/assets/images/section3/arrow.svg");
+    margin-left: 10px;
+    margin-top: 4px;
+}
+
+.images-singers{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
 }
