@@ -1,4 +1,4 @@
-let to =new Date('jan 1 2023 00:00:00');
+let to =new Date('fev 1 2023 00:00:00');
 		function update(){
 			let from =new Date();
 				diff=to-from;
